@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/main.cbcafaa4a825a03914dc.bundle.js",
+    "main.js.map": "/main.cbcafaa4a825a03914dc.bundle.js.map",
+    "runtime~main.js": "/runtime~main.cbcafaa4a825a03914dc.bundle.js",
+    "runtime~main.js.map": "/runtime~main.cbcafaa4a825a03914dc.bundle.js.map",
+    "vendors~main.js": "/vendors~main.cbcafaa4a825a03914dc.bundle.js",
+    "vendors~main.js.map": "/vendors~main.cbcafaa4a825a03914dc.bundle.js.map",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.177e3c7a1e19a78b3f45dc96b674ec9d.js": "/precache-manifest.177e3c7a1e19a78b3f45dc96b674ec9d.js",
+    "service-worker.js": "/service-worker.js",
+    "vendors~main.cbcafaa4a825a03914dc.bundle.js.LICENSE.txt": "/vendors~main.cbcafaa4a825a03914dc.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.cbcafaa4a825a03914dc.bundle.js",
+    "vendors~main.cbcafaa4a825a03914dc.bundle.js",
+    "main.cbcafaa4a825a03914dc.bundle.js"
+  ]
+}

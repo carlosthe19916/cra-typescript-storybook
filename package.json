@@ -34,7 +34,9 @@
     "build:babel:umd": "BABEL_ENV=umd babel --source-maps --extensions \".js\" dist/esm --out-dir dist/umd --plugins=transform-es2015-modules-umd",
     "build:types": "tsc -p tsconfig.gen-dts.json",
     "clean": "rimraf dist",
-    "develop": "yarn build:types && yarn build:babel:esm --skip-initial-build --watch --verbose"
+    "develop": "yarn build:types && yarn build:babel:esm --skip-initial-build --watch --verbose",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -54,6 +56,13 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@storybook/addon-actions": "^6.0.0-alpha.13",
+    "@storybook/addon-docs": "^6.0.0-alpha.13",
+    "@storybook/addon-info": "^6.0.0-alpha.2",
+    "@storybook/addon-links": "^6.0.0-alpha.13",
+    "@storybook/addons": "^6.0.0-alpha.13",
+    "@storybook/preset-create-react-app": "^1.5.2",
+    "@storybook/react": "^6.0.0-alpha.13",
     "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
     "babel-plugin-typescript-to-proptypes": "^1.2.1",
     "concurrently": "^5.1.0"
